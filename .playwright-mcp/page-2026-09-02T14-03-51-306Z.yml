@@ -1,0 +1,198 @@
+- main [ref=f1e4]:
+  - generic [ref=f1e6]:
+    - generic [ref=f1e7]:
+      - generic [ref=f1e8]: LI
+      - generic [ref=f1e9]:
+        - paragraph [ref=f1e10]: Libreria
+        - heading "librerIA" [level=1] [ref=f1e11]
+    - generic [ref=f1e12]:
+      - generic [ref=f1e13]: Lingua
+      - combobox "Lingua" [ref=f1e14]:
+        - option "Inglese"
+        - option "Italiano" [selected]
+  - generic [ref=f1e15]:
+    - generic [ref=f1e16]:
+      - generic [ref=f1e17]:
+        - paragraph [ref=f1e18]: Catalogo
+        - heading "Catalogo libreria" [level=2] [ref=f1e19]
+      - paragraph [ref=f1e20]: 18 libri disponibili
+    - generic [ref=f1e21]:
+      - generic [ref=f1e22]:
+        - generic [ref=f1e23]: Cerca libri
+        - searchbox "Cerca libri" [ref=f1e24]
+      - generic [ref=f1e25]:
+        - generic [ref=f1e26]: Filtra per lingua
+        - combobox "Filtra per lingua" [ref=f1e27]:
+          - option "Tutte le lingue" [selected]
+          - option "Italiano"
+          - option "Inglese"
+      - group "Filtra per anno di pubblicazione" [ref=f1e28]:
+        - generic [ref=f1e30]:
+          - generic [ref=f1e31]: Filtra per anno di pubblicazione
+          - generic [ref=f1e32]: 1320 - 1900
+        - generic [ref=f1e33]:
+          - slider "Anno di pubblicazione piu antico" [ref=f1e34] [cursor=pointer]: "1320"
+          - slider "Anno di pubblicazione piu recente" [ref=f1e35] [cursor=pointer]: "1900"
+    - generic [ref=f1e36]:
+      - article [ref=f1e37]:
+        - generic [ref=f1e38]:
+          - generic [ref=f1e39]: LA
+          - generic [ref=f1e40]:
+            - paragraph [ref=f1e41]: Italiano · 1883
+            - 'heading "Le avventure di Pinocchio: Storia di un burattino" [level=3] [ref=f1e42]'
+            - paragraph [ref=f1e43]: Carlo Collodi
+        - paragraph [ref=f1e44]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e45]
+      - article [ref=f1e48]:
+        - generic [ref=f1e49]:
+          - generic [ref=f1e50]: AA
+          - generic [ref=f1e51]:
+            - paragraph [ref=f1e52]: Inglese · 1865
+            - heading "Alice’s Adventures in Wonderland" [level=3] [ref=f1e53]
+            - paragraph [ref=f1e54]: Lewis Carroll
+        - paragraph [ref=f1e55]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e56]
+      - article [ref=f1e59]:
+        - generic [ref=f1e60]:
+          - generic [ref=f1e61]: IP
+          - generic [ref=f1e62]:
+            - paragraph [ref=f1e63]: Italiano · 1827
+            - heading "I Promessi Sposi" [level=3] [ref=f1e64]
+            - paragraph [ref=f1e65]: Alessandro Manzoni
+        - paragraph [ref=f1e66]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e67]
+      - article [ref=f1e70]:
+        - generic [ref=f1e71]:
+          - generic [ref=f1e72]: LD
+          - generic [ref=f1e73]:
+            - paragraph [ref=f1e74]: Italiano · 1320
+            - heading "La Divina Commedia" [level=3] [ref=f1e75]
+            - paragraph [ref=f1e76]: Dante Alighieri
+        - paragraph [ref=f1e77]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e78]
+      - article [ref=f1e81]:
+        - generic [ref=f1e82]:
+          - generic [ref=f1e83]: OF
+          - generic [ref=f1e84]:
+            - paragraph [ref=f1e85]: Italiano · 1516
+            - heading "Orlando Furioso" [level=3] [ref=f1e86]
+            - paragraph [ref=f1e87]: Ludovico Ariosto
+        - paragraph [ref=f1e88]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e89]
+      - article [ref=f1e92]:
+        - generic [ref=f1e93]:
+          - generic [ref=f1e94]: PA
+          - generic [ref=f1e95]:
+            - paragraph [ref=f1e96]: Inglese · 1813
+            - heading "Pride and Prejudice" [level=3] [ref=f1e97]
+            - paragraph [ref=f1e98]: Jane Austen
+        - paragraph [ref=f1e99]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e100]
+      - article [ref=f1e103]:
+        - generic [ref=f1e104]:
+          - generic [ref=f1e105]: F
+          - generic [ref=f1e106]:
+            - paragraph [ref=f1e107]: Inglese · 1818
+            - heading "Frankenstein" [level=3] [ref=f1e108]
+            - paragraph [ref=f1e109]: Mary Shelley
+        - paragraph [ref=f1e110]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e111]
+      - article [ref=f1e114]:
+        - generic [ref=f1e115]:
+          - generic [ref=f1e116]: D
+          - generic [ref=f1e117]:
+            - paragraph [ref=f1e118]: Inglese · 1897
+            - heading "Dracula" [level=3] [ref=f1e119]
+            - paragraph [ref=f1e120]: Bram Stoker
+        - paragraph [ref=f1e121]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e122]
+      - article [ref=f1e125]:
+        - generic [ref=f1e126]:
+          - generic [ref=f1e127]: TA
+          - generic [ref=f1e128]:
+            - paragraph [ref=f1e129]: Inglese · 1892
+            - heading "The Adventures of Sherlock Holmes" [level=3] [ref=f1e130]
+            - paragraph [ref=f1e131]: Arthur Conan Doyle
+        - paragraph [ref=f1e132]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e133]
+      - article [ref=f1e136]:
+        - generic [ref=f1e137]:
+          - generic [ref=f1e138]: M
+          - generic [ref=f1e139]:
+            - paragraph [ref=f1e140]: Inglese · 1851
+            - heading "Moby-Dick" [level=3] [ref=f1e141]
+            - paragraph [ref=f1e142]: Herman Melville
+        - paragraph [ref=f1e143]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e144]
+      - article [ref=f1e147]:
+        - generic [ref=f1e148]:
+          - generic [ref=f1e149]: TP
+          - generic [ref=f1e150]:
+            - paragraph [ref=f1e151]: Inglese · 1890
+            - heading "The Picture of Dorian Gray" [level=3] [ref=f1e152]
+            - paragraph [ref=f1e153]: Oscar Wilde
+        - paragraph [ref=f1e154]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e155]
+      - article [ref=f1e158]:
+        - generic [ref=f1e159]:
+          - generic [ref=f1e160]: TA
+          - generic [ref=f1e161]:
+            - paragraph [ref=f1e162]: Inglese · 1876
+            - heading "The Adventures of Tom Sawyer" [level=3] [ref=f1e163]
+            - paragraph [ref=f1e164]: Mark Twain
+        - paragraph [ref=f1e165]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e166]
+      - article [ref=f1e169]:
+        - generic [ref=f1e170]:
+          - generic [ref=f1e171]: AO
+          - generic [ref=f1e172]:
+            - paragraph [ref=f1e173]: Inglese · 1884
+            - heading "Adventures of Huckleberry Finn" [level=3] [ref=f1e174]
+            - paragraph [ref=f1e175]: Mark Twain
+        - paragraph [ref=f1e176]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e177]
+      - article [ref=f1e180]:
+        - generic [ref=f1e181]:
+          - generic [ref=f1e182]: WH
+          - generic [ref=f1e183]:
+            - paragraph [ref=f1e184]: Inglese · 1847
+            - heading "Wuthering Heights" [level=3] [ref=f1e185]
+            - paragraph [ref=f1e186]: Emily Bronte
+        - paragraph [ref=f1e187]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e188]
+      - article [ref=f1e191]:
+        - generic [ref=f1e192]:
+          - generic [ref=f1e193]: TS
+          - generic [ref=f1e194]:
+            - paragraph [ref=f1e195]: Inglese · 1886
+            - heading "The Strange Case of Dr Jekyll and Mr Hyde" [level=3] [ref=f1e196]
+            - paragraph [ref=f1e197]: Robert Louis Stevenson
+        - paragraph [ref=f1e198]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e199]
+      - article [ref=f1e202]:
+        - generic [ref=f1e203]:
+          - generic [ref=f1e204]: TI
+          - generic [ref=f1e205]:
+            - paragraph [ref=f1e206]: Inglese · 1883
+            - heading "Treasure Island" [level=3] [ref=f1e207]
+            - paragraph [ref=f1e208]: Robert Louis Stevenson
+        - paragraph [ref=f1e209]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e210]
+      - article [ref=f1e213]:
+        - generic [ref=f1e214]:
+          - generic [ref=f1e215]: LW
+          - generic [ref=f1e216]:
+            - paragraph [ref=f1e217]: Inglese · 1868
+            - heading "Little Women" [level=3] [ref=f1e218]
+            - paragraph [ref=f1e219]: Louisa May Alcott
+        - paragraph [ref=f1e220]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e221]
+      - article [ref=f1e224]:
+        - generic [ref=f1e225]:
+          - generic [ref=f1e226]: TW
+          - generic [ref=f1e227]:
+            - paragraph [ref=f1e228]: Inglese · 1900
+            - heading "The Wonderful Wizard of Oz" [level=3] [ref=f1e229]
+            - paragraph [ref=f1e230]: L. Frank Baum
+        - paragraph [ref=f1e231]: Sono disponibili il testo sorgente preparato e la struttura dei capitoli.
+        - button "Apri libro" [ref=f1e232]

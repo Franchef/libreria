@@ -1,0 +1,146 @@
+[
+  {
+    "id": "le-avventure-di-pinocchio",
+    "title": "Le avventure di Pinocchio: Storia di un burattino",
+    "author": "Carlo Collodi",
+    "year": 1883,
+    "language": "it",
+    "file": "/data/books/le-avventure-di-pinocchio.json"
+  },
+  {
+    "id": "alice-adventures-in-wonderland",
+    "title": "Alice’s Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "language": "en",
+    "file": "/data/books/alice-adventures-in-wonderland.json"
+  },
+  {
+    "id": "i-promessi-sposi",
+    "title": "I Promessi Sposi",
+    "author": "Alessandro Manzoni",
+    "year": 1827,
+    "language": "it",
+    "file": "/data/books/i-promessi-sposi.json"
+  },
+  {
+    "id": "la-divina-commedia",
+    "title": "La Divina Commedia",
+    "author": "Dante Alighieri",
+    "year": 1320,
+    "language": "it",
+    "file": "/data/books/la-divina-commedia.json"
+  },
+  {
+    "id": "orlando-furioso",
+    "title": "Orlando Furioso",
+    "author": "Ludovico Ariosto",
+    "year": 1516,
+    "language": "it",
+    "file": "/data/books/orlando-furioso.json"
+  },
+  {
+    "id": "pride-and-prejudice",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "language": "en",
+    "file": "/data/books/pride-and-prejudice.json"
+  },
+  {
+    "id": "frankenstein",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "language": "en",
+    "file": "/data/books/frankenstein.json"
+  },
+  {
+    "id": "dracula",
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "language": "en",
+    "file": "/data/books/dracula.json"
+  },
+  {
+    "id": "the-adventures-of-sherlock-holmes",
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "language": "en",
+    "file": "/data/books/the-adventures-of-sherlock-holmes.json"
+  },
+  {
+    "id": "moby-dick",
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "language": "en",
+    "file": "/data/books/moby-dick.json"
+  },
+  {
+    "id": "the-picture-of-dorian-gray",
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "language": "en",
+    "file": "/data/books/the-picture-of-dorian-gray.json"
+  },
+  {
+    "id": "the-adventures-of-tom-sawyer",
+    "title": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1876,
+    "language": "en",
+    "file": "/data/books/the-adventures-of-tom-sawyer.json"
+  },
+  {
+    "id": "adventures-of-huckleberry-finn",
+    "title": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "language": "en",
+    "file": "/data/books/adventures-of-huckleberry-finn.json"
+  },
+  {
+    "id": "wuthering-heights",
+    "title": "Wuthering Heights",
+    "author": "Emily Bronte",
+    "year": 1847,
+    "language": "en",
+    "file": "/data/books/wuthering-heights.json"
+  },
+  {
+    "id": "the-strange-case-of-dr-jekyll-and-mr-hyde",
+    "title": "The Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "language": "en",
+    "file": "/data/books/the-strange-case-of-dr-jekyll-and-mr-hyde.json"
+  },
+  {
+    "id": "treasure-island",
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "language": "en",
+    "file": "/data/books/treasure-island.json"
+  },
+  {
+    "id": "little-women",
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868,
+    "language": "en",
+    "file": "/data/books/little-women.json"
+  },
+  {
+    "id": "the-wonderful-wizard-of-oz",
+    "title": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "year": 1900,
+    "language": "en",
+    "file": "/data/books/the-wonderful-wizard-of-oz.json"
+  }
+]

@@ -1,0 +1,68 @@
+- main [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: LI
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: Library
+        - heading "librerIA" [level=1] [ref=e11]
+    - generic [ref=e12]: Local workspace
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: Catalog
+        - heading "Explore prepared books" [level=2] [ref=e22]
+      - paragraph [ref=e23]: 4 books available
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Search books
+        - searchbox "Search books" [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e29]: Filter by language
+        - combobox "Filter by language" [ref=e30]:
+          - option "All languages" [selected]
+          - option "English"
+          - option "Spanish"
+          - option "Italian"
+      - generic [ref=e31]:
+        - generic [ref=e32]: Filter by publication year
+        - combobox "Filter by publication year" [ref=e33]:
+          - option "Any year" [selected]
+          - option "2000 or later"
+          - option "Before 2000"
+    - generic [ref=e34]:
+      - article [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AC
+          - generic [ref=e38]:
+            - paragraph [ref=e39]: English · 2013
+            - heading "The Art of Clear Thinking" [level=3] [ref=e40]
+            - paragraph [ref=e41]: Rolf Dobelli
+        - paragraph [ref=e42]: A practical guide to recognizing the habits of thought that lead us away from sound decisions.
+        - button "Open book" [ref=e43]
+      - article [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: S
+          - generic [ref=e49]:
+            - paragraph [ref=e50]: English · 2011
+            - heading "Sapiens" [level=3] [ref=e51]
+            - paragraph [ref=e52]: Yuval Noah Harari
+        - paragraph [ref=e53]: An exploration of the forces that shaped Homo sapiens, from early societies to the modern age.
+        - button "Open book" [ref=e54]
+      - article [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e59]: EI
+          - generic [ref=e60]:
+            - paragraph [ref=e61]: Spanish · 2019
+            - heading "El infinito en un junco" [level=3] [ref=e62]
+            - paragraph [ref=e63]: Irene Vallejo
+        - paragraph [ref=e64]: A literary journey through the invention, survival, and enduring power of books.
+        - button "Open book" [ref=e65]
+      - article [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]: NR
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Italian · 1980
+            - heading "Il nome della rosa" [level=3] [ref=e73]
+            - paragraph [ref=e74]: Umberto Eco
+        - paragraph [ref=e75]: A historical mystery about knowledge, interpretation, and power in a fourteenth-century monastery.
+        - button "Open book" [ref=e76]
