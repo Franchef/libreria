@@ -19,7 +19,12 @@ const COVERAGE_SAMPLE = 5
 const STOP_WORDS = new Set([
   'about', 'are', 'che', 'come', 'cosa', 'della', 'delle', 'dello', 'di', 'does', 'for', 'from',
   'how', 'il', 'in', 'la', 'le', 'lo', 'of', 'per', 'qual', 'the', 'what', 'who', 'with', 'your', 'è',
+  'chi', 'dove', 'quando', 'perche', 'perché', 'quale', 'quali', 'quanto', 'quanti', 'quante',
+  'da', 'dal', 'dalla', 'dalle', 'dallo', 'dai', 'degli', 'dei', 'del', 'e', 'ed', 'ma', 'non',
+  'questo', 'questa', 'questi', 'queste', 'quello', 'quella', 'quelli', 'quelle', 'where', 'when',
+  'why', 'which', 'this', 'that', 'these', 'those',
 ])
+const GENERIC_UNANCHORED_TERMS = new Set(['born', 'birth', 'nato', 'nata', 'nascita'])
 
 type IndexedDocument = {
   id: string
@@ -102,7 +107,18 @@ function truncate(text: string, limit: number) {
 
 function contentTerms(query: string) {
   const words = query.toLowerCase().match(/\p{L}+/gu) ?? []
-  return [...new Set(words.filter((word) => word.length > 3 && !STOP_WORDS.has(word)))]
+  return [...new Set(words.filter((word) => word.length >= 3 && !STOP_WORDS.has(word)))]
+}
+
+function searchableText(document: IndexedDocument) {
+  return `${document.title} ${document.characters} ${document.location} ${document.text}`.toLowerCase()
+}
+
+function exactCoverage(document: IndexedDocument, terms: string[]) {
+  if (terms.length === 0) return 0
+
+  const words = new Set(searchableText(document).match(/\p{L}+/gu) ?? [])
+  return terms.filter((term) => words.has(term)).length / terms.length
 }
 
 export type RetrievalResult = {
@@ -116,6 +132,7 @@ export type BookIndex = {
 
 export function createBookIndex(book: PreparedBook): BookIndex {
   const { documents, passages } = toDocuments(book)
+  const documentsById = new Map(documents.map((document) => [document.id, document]))
 
   const miniSearch = new MiniSearch<IndexedDocument>({
     fields: [...SEARCH_FIELDS],
@@ -132,12 +149,21 @@ export function createBookIndex(book: PreparedBook): BookIndex {
     })
 
     const terms = contentTerms(query)
+    if (terms.length > 0 && terms.every((term) => GENERIC_UNANCHORED_TERMS.has(term))) {
+      return { passages: [], relevant: false }
+    }
+
     const matched = new Set(results.slice(0, COVERAGE_SAMPLE).flatMap((result) => result.terms))
     const coverage = terms.length === 0 ? 0 : terms.filter((term) => matched.has(term)).length / terms.length
 
     if (coverage < MIN_TERM_COVERAGE) return { passages: [], relevant: false }
 
+    const minimumDocumentCoverage = terms.length <= 2 ? 1 : 0.67
     const ranked = results
+      .filter((result) => {
+        const document = documentsById.get(result.id)
+        return document ? exactCoverage(document, terms) >= minimumDocumentCoverage : false
+      })
       .map((result) => passages.get(result.id))
       .filter((passage): passage is Passage => Boolean(passage))
 
