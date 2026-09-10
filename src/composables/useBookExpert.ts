@@ -77,7 +77,7 @@ async function ask({ book, passages, question, replyLanguage, onDelta }: AskOpti
 
   const stream = await engine.value.chat.completions.create({
     stream: true,
-    temperature: 0.2,
+    temperature: 0.0,
     max_tokens: 512,
     messages: [
       { role: 'system', content: buildSystemPrompt(book, replyLanguage) },
