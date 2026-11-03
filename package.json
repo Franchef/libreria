@@ -13,7 +13,7 @@
     "@mlc-ai/web-llm": "^0.2.84",
     "minisearch": "^7.2.0",
     "vue": "^3.5.41",
-    "vue-i18n": "^11.4.2"
+    "vue-i18n": "^11.4.14"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
